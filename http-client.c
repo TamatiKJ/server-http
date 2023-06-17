@@ -1,4 +1,5 @@
-// Http server
+// HTTP server
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,10 +14,10 @@ int main() {
     char server[100];
     char path[200];
 
-    printf("Enter the server name: ");
+    printf("Enter the server name or address (e.g., example.com or 192.168.0.1): ");
     scanf("%s", server);
 
-    printf("Enter the path of the web page: ");
+    printf("Enter the path of the web page (e.g., /index.html): ");
     scanf("%s", path);
 
     // Create a socket
