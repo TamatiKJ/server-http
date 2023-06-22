@@ -4,7 +4,7 @@ C program to fetch a webpage
 
 This is a simple HTTP client program that allows you to retrieve web pages from a server. It was part of the requirements for the completion of CSC 322 Networks and Distributed Programming at the University of Nairobi.
 
-Prerequisites
+Prerequisites--
 Before running the program, ensure that you have the following:
 
 A C compiler installed on your linux system (e.g., GCC)
